@@ -12,4 +12,6 @@
 
     <bean class="com.fpmislata.persistencia.hibernate.HibernateUtil" factory-method="getSessionFactory"  />
     <bean class="ejemplo03.persistencia.dao.impl.CocheDAOImplHibernate" />
+    <bean class="ejemplo03.persistencia.dao.impl.MotorDAOImplHibernate" />
+
 </beans>

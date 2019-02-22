@@ -36,7 +36,7 @@
                                     <th>Modelo</th>
                                     <th>Precio</th>
                                     <th>Puertas</th>
-                                    <th>&nbsp;</th>
+                                    <th>Borrar</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -44,7 +44,7 @@
                                     for (Coche coche : coches) {
                                 %>
                                 <tr>
-                                    <td><a href="<%=request.getContextPath()%>/coche/readForUpdate.html?id=<%=coche.getIdCoche()%>" title="Editar" ><%=coche.getIdCoche()%></a></td>
+                                    <td><a href="<%=request.getContextPath()%>/coche/readForUpdate.html?idCoche=<%=coche.getIdCoche()%>" title="Editar" ><%=coche.getIdCoche()%></a></td>
                                     <td><%=HtmlUtils.htmlEscape(coche.getMarca())%></td>
                                     <td><%=HtmlUtils.htmlEscape(coche.getModelo())%></td>
                                     <td><%=HtmlUtils.htmlEscape(Integer.toString(coche.getPrecio()))%></td>
