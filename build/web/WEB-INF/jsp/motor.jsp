@@ -63,10 +63,10 @@
                     <fieldset>
                         <label class="control-label" for="idMotor">Id_Motor:</label>
                         <input class="input-large disabled " id="idMotor" name="idMotor" type="text" value="${motor.idMotor}" readonly="readonly">
- 
+                        <br>
                         <label class="control-label" for="marca">Combustible:</label>
                         <input class="input-xlarge" id="combustible" type="text" name="combustible" value="${motor.combustible}" >
-                        
+                        <br>
                         <label class="control-label" for="modelo">Potencia:</label>
                         <input class="input-xlarge" id="potencia" type="text" name="potencia" value="${motor.potencia}" >
                     </fieldset>

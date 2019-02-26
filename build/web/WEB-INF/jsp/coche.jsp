@@ -63,19 +63,18 @@
                     <fieldset>
                         <label class="control-label" for="idCoche">Id_Coche:</label>
                         <input class="input-large disabled " id="idCoche" name="idCoche" type="text" value="${coche.idCoche}" readonly="readonly">
-
+                        <br>
                         <label class="control-label" for="marca">Marca:</label>
                         <input class="input-xlarge" id="marca" type="text" name="marca" value="${coche.marca}" >
-                        
+                        <br>
                         <label class="control-label" for="modelo">Modelo:</label>
                         <input class="input-xlarge" id="modelo" type="text" name="modelo" value="${coche.modelo}" >
-                        
+                        <br>
                         <label class="control-label" for="precio">Precio:</label>
                         <input class="input-xlarge" id="precio" type="text" name="precio" value="${coche.precio}" >
-                        
+                        <br>
                         <label class="control-label" for="puertas">Puertas:</label>
                         <input class="input-xlarge" id="puertas" type="text" name="puertas" value="${coche.puertas}" >
-
                     </fieldset>
                     <% if (request.getAttribute("bussinessMessages") != null) {%>
                     <div class="alert alert-error alert-block">
